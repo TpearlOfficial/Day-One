@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #50AA79;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 582px;
+    height: 475px;
+    background-image: url("bicycle.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+    padding: 25px 40px;
+    box-shadow: 1px 2px 10px grey;
+
+}  
+.simplewheels{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img{
+    border: 1px solid#FFFFFF;
+    width: 45px;
+    height: 45px;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: centre;
+    border: 1px solid #afafaf;
+}
+
+.heading p{
+    font-family: calibri;
+    padding: 5px 10px;
+    padding-bottom: 35px;
+}
+.price1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px 10px ;
+    padding-bottom: 20px;
+}
+.price1 p{
+    color: #757575;
+    font-family: calibri;
+    font-weight: bold;
+}
+.price2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end ;
+    padding: 5px 10px ;
+    padding-bottom: 30px ;
+}
+.price2 p{
+    color: #757575;
+    font-weight: bold;
+    font-family: calibri ;
+}
+.total {
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px 10px ;
+
+}
+.total p{
+    color:#757575;
+    font-weight: bolder;
+}
+ p.tag{
+    color:#000000 ;
+    font-weight: bolder;
+}
+.img:hover{
+    box-shadow: 0px 0px 0px 4px #e6e6e6;
+}
